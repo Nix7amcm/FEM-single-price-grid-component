@@ -1,0 +1,131 @@
+:root {
+  /* _____ colors _____ */
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-grey: hsl(205, 44%, 93%);
+  --grey-blue: hsl(218, 22%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --white-o-015: hsla(0, 0%, 100%, 0.15);
+  --white-o-05: hsla(0, 0%, 100%, 0.5);
+  --white-o-075: hsla(0, 0%, 100%, 0.75);
+  --black-o-01: hsla(0, 0%, 0%, 0.1);
+  --dk-blue-0-015: hsla(212, 100%, 33%, 0.15);
+  --purple-0-07: hsla(300, 100%, 25%, 0.7);
+
+  --bg-body: var(--light-grey);
+
+  /* _____ fonts _____ */
+  --font1: 'Karla', sans-serif;
+
+  /* _____ typography _____ *
+  /* ### font-color ### */
+  --fc-h1: var(--cyan);
+  --fc-sub: var(--bright-yellow);
+  --fc-p-join: var(--grey-blue);
+  --fc-h2: var(--white);
+  --fc-price: var(--white);
+  --fc-pm: var(--white-o-05);
+  --fc-p-subsc: var(--white);
+  --fc-ul: var(--white-o-075);
+
+  /* ### font-family ### */
+  --ff-body: var(--font1);
+  --ff-h1: var(--font1);
+  --ff-sub: var(--font1);
+  --ff-p-join: var(--font1);
+  --ff-h2: var(--font1);
+  --ff-price: var(--font1);
+  --ff-pm: var(--font1);
+  --ff-p-subsc: var(--font1);
+  --ff-ul: var(--font1);
+
+  /* ### font-size ### */
+  --fs-body: 1rem;
+  --fs-h1: 1.5rem;
+  --fs-h1-mob: 1.25rem;
+  --fs-sub: 1.125rem;
+  --fs-sub-mob: .9375rem;
+  --fs-p-join: 1rem;
+  --fs-p-join-mob: clamp(.75rem, 3.8vw, .875rem);
+  --fs-h2: 1.125rem;
+  --fs-price: 2rem;
+  --fs-pm: 1rem;
+  --fs-p-subsc: 1rem;
+  --fs-p-subsc-mob: clamp(.875rem, 4.5vw, 1rem);
+  --fs-ul: .875rem;
+  --fs-ul-mob: clamp(.75rem, 3.8vw, .875rem);
+
+  /* ### font-weight ### */
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --fw-h1: var(--fw-700);
+  --fw-sub: var(--fw-700);
+  --fw-p-join: var(--fw-400);
+  --fw-h2: var(--fw-700);
+  --fw-price: var(--fw-700);
+  --fw-pm: var(--fw-400);
+  --fw-p-subsc: var(--fw-400);
+  --fw-ul: var(--fw-400);
+
+  /* ### line-height ### */
+  --lh-h1: 1.7537rem;
+  --lh-h1-mob: 23.38px;
+  --lh-sub: 1.315rem;
+  --lh-sub-mob: 1.25rem;
+  --lh-p-join: 1.625rem;
+  --lh-h2: 1.315rem;
+  --lh-price: 2.3381rem;
+  --lh-pm: 1.625rem;
+  --lh-p-subsc: 1.625rem;
+  --lh-ul: 1.25rem;
+
+  /* ### letter-spacing ### */
+  --ls-h1: -0.3px;
+  --ls-h1-mob: -0.25px;
+  --ls-sub: -0.22px;
+  --ls-sub-mob: -0.19px;
+  --ls-p-join: -0.2px;
+  --ls-p-join-mob: -0.175px;
+  --ls-h2: -0.22px;
+  --ls-price: -0.4px;
+  --ls-pm: -0.2px;
+  --ls-p-subsc: -0.2px;
+  --ls-ul: -0.17px;
+
+
+  /* _____ card _____ */
+  --bg-box-join: var(--white);
+  --bg-box-subsc: var(--cyan);
+  --bg-box-why: var(--cyan);
+  --bg-box-why-mask: var(--white-o-015);
+  --bxs-card: 0px 15px 30px var(--dk-blue-0-015);
+  --bdrs-card: .5rem;
+  --bdrs-card-mob: .3125rem .3125rem 0 0;
+
+
+  /* _____ button _____ */
+  --bg-btn: var(--bright-yellow);
+  --bg-btn-hov: var(--purple-0-07);
+  --bxs-btn: 0px 10px 10px var(--black-o-01);
+  --bdrs-btn: .3125rem;
+  --bdr-btn-act: 1px solid var(--bright-yellow);
+  --ff-btn: var(--font1);
+  --fc-btn: var(--white);
+  --fc-btn-act: var(--bright-yellow);
+  --fs-btn: 1rem;
+  --fw-btn: var(--fw-700);
+  --lh-btn: 1.1687rem;
+  --ls-btn: -0.2px;
+
+  /* _____ footer _____ */
+  --fc-footer: hsl(212, 21%, 14%);
+  --fc-footer-a: hsl(180, 100%, 27%);
+  --fc-footer-a-hov: hsl(300, 100%, 50%);
+  --fc-footer-a-vis: hsl(300, 100%, 25%);
+  --fs-footer: clamp(.625rem, 3vw, .6875rem);
+
+
+
+
+}
