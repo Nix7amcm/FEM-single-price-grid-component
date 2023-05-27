@@ -28,8 +28,15 @@ body {
   overflow: auto;
 }
 
-@media (max-width: 670px) {
-  body {}
+@media (max-width: 1000px) {
+  body {    
+  align-content: space-around;
+  }
+}
+
+@media (max-width: 800px) {
+  body {    
+  }
 }
 
 
